@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: #828486;
+}
+.peterHeader{
+       content:url(./peter1.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-2x {
+    transition: transform 1s;
+}
+.fa-2x:hover{
+    color: #e67e22;
+    transform: rotate(850deg);
+} 
+.fa {
+    font-size: 18px !important;
+    color: #333;
+    cursor: pointer;
+}
+.restart{
+    background: #eee;
+    width: 525px;
+    margin-left:auto;
+    margin-right: auto;
+line-height: 30px;
+    font-family: 'Acme', sans-serif;
+    color:#95a5a6;
+}
+.score-container{
+    color:white;
+    font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+.em {
+    display: inline;
+    margin: 10px 20px;
+    padding: 0 10px;
+}
+.score-container .em, .em-man-running .em-boom {
+    height: 1.5em;
+    padding-left: 33px;
+    background-position: left;
+}
